@@ -5,7 +5,7 @@ namespace Bai05
 {
     public partial class Bai05 : Form
     {
-        private string connStr = @"Server=X1-CARBON-GEN6\SQLEXPRESS;Database=NguyenHuy;User Id=NguyenHuy;Password=12345;TrustServerCertificate=True;Encrypt=False";
+        private string connStr = @"Server=[Ten Host];Database=NguyenHuy;Trusted_Connection=True;TrustServerCertificate=True;";
         private SqlConnection conn;
         private SqlDataAdapter myAdap;
         private DataSet ds;
@@ -91,3 +91,4 @@ namespace Bai05
         }
     }
 }
+
